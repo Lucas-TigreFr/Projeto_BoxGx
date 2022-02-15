@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+*{ 
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+}
+
+body{
+    font-size:100%;
+}
+.container{
+    background-image: url('img/Bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    height: 90px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.logo:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.5));
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    
+}
+
+.navbar{
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 24px;
+     background-color: rgb(10, 10, 10);
+    
+}
+.navbar-menu{
+    display: flex;
+    gap: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.navbar-menu:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.navbar-item{
+    font-family: "Bebas Neue    ", sans-serif;  
+    color: #fff;
+    font-weight: 800px;
+    font-size: 24px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.navbar-item:hover{
+    transition: all 0.5s;
+    cursor: pointer;
+    color: rgb(3, 231, 247);
+}
+
+.conteudo{
+    padding-bottom: 48px;
+    background-image: linear-gradient(to bottom, rgb(10, 10, 10) , rgba(17, 16, 92, 0.575) , rgba(0, 0, 0, 0.993))  
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Titulo{
+    font-family: "Oswald", sans-serif;  
+    font-size: 64px;
+    font-weight: 400;;
+    Color: rgb(0, 209, 216);
+}
+#Sub-Titulo{
+    font-family: "Oswald", sans-serif; 
+    font-size: 24px;
+    font-weight: 400; 
+    color: #fff;
+}
+#Button{
+    background-color: #3a818a;
+    color: #fff;
+    width: 180px;
+    font-family: "Oswald", sans-serif; 
+    font-size: 18px;
+    font-weight: 400; 
+    height: 60px;
+    border-radius:20px;
+    text-transform: uppercase;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    transition: all 0.5s;
+}
+#Button:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#Img1{
+    height:500px;
+    transition: all 0.5s; 
+}
+#Img1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(20px 10px 5px rgba(0,0,0,.5));  
+}
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.Titulo2{
+    border-top: 0.4px solid rgb(255, 255, 255);font-family: "Oswald", sans-serif; 
+    padding-top: 48px;
+    font-size: 38px;
+    font-weight: 400; 
+    color: #fff;
+}
+.paragrafo{
+    font-size: 18px;
+    font-weight: 400; 
+    color: #fff;
+}
+
+#footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+#footer-txt{
+    padding: 10px;
+}
+#footer-img{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;       
+    gap: 24px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#footer-img:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(2px 2px 5px rgba(3, 154, 192, 0.5));
+    
+}
+.img-footer{
+    
+    width: 160px;
+}
+
